@@ -1,0 +1,18 @@
+{
+  "name": "playwright-mcp-server-render",
+  "version": "1.0.0",
+  "description": "Playwright MCP Server for Render.com deployment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@playwright/mcp": "latest",
+    "@modelcontextprotocol/sdk": "latest",
+    "playwright": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
