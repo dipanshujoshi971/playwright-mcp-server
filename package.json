@@ -8,9 +8,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@playwright/mcp": "latest",
-    "@modelcontextprotocol/sdk": "latest",
-    "playwright": "latest"
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "playwright": "^1.48.0"
   },
   "engines": {
     "node": ">=18.0.0"
